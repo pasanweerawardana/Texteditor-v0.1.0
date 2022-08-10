@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="327.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AboutFormController">
+   <children>
+      <ImageView fitHeight="122.0" fitWidth="119.0" layoutX="134.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="92.0" layoutY="165.0" text="DEP-9 Text Editor">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="173.0" layoutY="198.0" text="v0.1.0" />
+      <Label alignment="CENTER" layoutX="21.0" layoutY="246.0" prefHeight="16.0" prefWidth="349.0" text="The simple and durable text editor" />
+      <Label layoutX="66.0" layoutY="299.0" text="Copyright  © 2022 DEP9. All Rights Reserved.">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
